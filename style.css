@@ -73,7 +73,7 @@ textarea {
     display: inline-block;
     width: max-content;
 
-    background-color: red;
+    background-color: #f99104;
     border: 1px solid #ccc;
     text-align: center;
 }
@@ -96,7 +96,7 @@ button {
     width: 80px;
     margin-right: 20px;
     color: #fff;
-    background-color: red;
+    background-color: #f99104;
     border: none;
 }
 
