@@ -1,12 +1,16 @@
 * {
     font-family: "Poppins", sans-serif;
 }
-
+.wrapper{
+width: 600px;
+    height: max-content;
+    margin: 0 auto;
+}
 .container {
     background-color: #003f69;
-    width: 600px;
-    height: 750px;
-    margin: 0 auto;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 7px;
 }
 
 h1 {
@@ -41,6 +45,12 @@ select {
 .input2,
 .input1 {
     display: flex;
+}
+.inputtt{
+    flex:1
+}
+.inputtt > input{
+    width: 86%;
 }
 
 .block2 {
@@ -109,4 +119,10 @@ span {
 .input2>input,
 .input1>input {
     width: 100%;
+}
+
+label.error{
+    color: black;
+    font-size: small;
+    padding-left: 10px;
 }
