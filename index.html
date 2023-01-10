@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200;1,400;1,500;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Job Application Form Widget</h1>
+
+        <form action="">
+            <div class="input">
+                <div class="block1">
+                    <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last name" required>
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="phone" name="phone" placeholder="Phone" required>
+                </div>
+                <div class="block2">
+                    <select name="country" id="country" required>
+                        <option value="">Select country</option>
+                    </select>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                    <input type="text" id="address" name="address" placeholder="Address" required>
+                    <select name="position" id="position" required>
+                        <option value="">Choose desired position</option>
+                    </select>
+                    <textarea name="info" id="info" cols="40" rows="10" placeholder="Additional info"></textarea><input
+                        type="text" placeholder="Add your CV">
+                    <input type="file" name="cv" id="cv" style="display: none;">
+                    <label for="cv">
+                        Browse
+                    </label>
+                </div>
+                <div class="block3">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
